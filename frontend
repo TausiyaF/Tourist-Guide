@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Rajasthan - Tourist Places</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: rgb(228, 213, 152);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        input {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 80%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px 30px;
+            background-color: #C70039;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #a5002f;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <h1>Explore Rajasthan</h1>               
+
+                    <nav>
+                        <ul>
+                            <li><a href="#destinations">Destinations</a></li>
+                            <li><a href="#heritage">Heritage</a></li>
+                            <li><a href="#wildlife">Wildlife</a></li>
+                            <li><a href="#festivals">Festivals</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="login.html">Login</a></li>    <!-- Link to login.html -->
+                            <!-- <li><a href="signup.html">Sign Up</a></li>  Link to signup.html -->
+                        </ul>
+                    </nav>
+        </div>
+    </header>
+   
+    <!-- Hero Section -->
+    <section class="hero">
+       
+        <!-- Hero Section -->
+<section class="hero">
+    <div class="marquee">
+        <h2>Padharo mhare desh!!🙇🏻‍♂️🙏🏻</h2>
+    </div>
+ <!-- Add your desired image source here -->
+</section>
+
+        <p>Discover the Land of Kings, Forts, Palaces, and Heritage.</p>
+        <img src="man_and_camel-removebg-preview.png" alt="Rajasthan Landscape"> <!-- Add your desired image source here -->
+    </section>
+
+    <!-- Popular Destinations Section -->
+    <section id="destinations">
+        <h2>Top Tourist Destinations</h2>
+        <div class="destinations-container">
+            <div class="destination">
+                <img src="city-palace-udaipur.jpg" alt="Jaipur" width="700" height="400">
+                <div class="text-container">
+                    <h3>Jaipur - The Pink City</h3>
+                    <p> Jaipur is Known for its palaces, forts, and vibrant culture.It is the capital and the largest city of the north-western Indian state of Rajasthan. As of 2011, the city has a population of 3.1 million, making it the tenth most populous city in the country. Located 268 km (167 miles) from the national capital New Delhi, Jaipur is also known as the Pink City due to the dominant color scheme of its buildings in old city.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="Jaipur HD wallpapers 13.jpg" alt="Udaipur" width="700" height="400">
+                <div class="text-container">
+                    <h3>Udaipur - The City of Lakes</h3>
+                    <p>Experience the beauty of lakes and royal palaces.It is a city in the north-western Indian state of Rajasthan, about 415 km (258 mi) south of the state capital Jaipur.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="nagaur.jpg" alt="Nagaur" width="700" height="400">
+                <div class="text-container">
+                    <h3>Nagaur </h3>
+                    <p>Nagaur (also Nagor and Nagore) is a city and municipal council in Nagaur district of the state of Rajasthan in India. It is the administrative headquarters of Nagaur District. The Nagaur city lies about midway between Jodhpur and Bikaner.
+
+                        Nagaur is famous for spices and sweets (mithai). Nagaur have huge mineral resources. Nagaur also has a temple of Maheshwari community Kuldevi in the name of Deresiya Mata Mandir and the very famous Banshiwala Mandir in the heart of city.</p>
+                </div>
+            </div>
+        </div>
+        <div class="destination">
+            <img src="brahma-temple-pushkar5.webp" alt="Pushkar" width="700" height="400">
+            <div class="text-container">
+                <h3>Pushkar - The Temple City</h3>
+                <p>Famous for Pilgrimage and cattle fair city in Rajasthan.Pushkar is a temple town near Ajmer City and headquarters of Pushkar tehsil in the Ajmer district in the Indian state of Rajasthan. It is situated about 10 km (6.2 mi) northwest of Ajmer and about 150 kilometres (93 mi) southwest of Jaipur.[1] It is a pilgrimage site for Hindus and Sikhs. Pushkar has many temples. Most of the temples and ghats in Pushkar are from the 18th century and later, because many temples were destroyed during Muslim conquests in the area.[1][2] Subsequently, the destroyed temples were rebuilt. The most famous among Pushkar temples is the red spired Brahma Temple. It is considered a sacred city by the Hindus particularly in Shaktism,[1][3] and meat and eggs consumption are forbidden in the city as are alcohol and drugs</p>
+            </div>
+        </div>
+        <div class="destination">
+            <img src="bikaner-city-guide.jpg" alt="Bikaner" width="700" height="400">
+            <div class="text-container">
+                <h3>Bikaner - The Shahi City of Rajasthan.</h3>
+                <p>Bikaner (pronunciationⓘ) is a city in the northwest of the state of Rajasthan, India. It is located 330 kilometres (205 mi) northwest of the state capital, Jaipur. Bikaner city is the administrative headquarters of Bikaner District and Bikaner division.
+
+                    Formerly the capital of the princely Bikaner State, the city was founded by Rao Bika, a Rajput chief of the Rathore dynasty in 1488 CE[8][9] and from its small origins it has developed into the fourth largest city in Rajasthan. The Ganga Canal, completed in 1928, and the Indira Gandhi Canal, completed in 1987, facilitated its development.</p>
+            </div>
+        </div>
+        <div class="destination">
+            <img src="jodhpur.jpg" alt="Jodhpur" width="700" height="400">
+            <div class="text-container">
+                <h3>Jodhpur - The second largest City of Rajasthan.</h3>
+                <p>It is called the blue city in Rajasthan.Jodhpur (Hindi pronunciation: [ˈd͡ʒoːd̪ʱpʊr] ⓘ) is the second-largest city of the north-western Indian state of Rajasthan after its capital Jaipur. As of 2023, the city has a population of 1.83 million.[11] It serves as the administrative headquarters of the Jodhpur district and Jodhpur division. It is historic capital of the Kingdom of Marwar, founded in 1459 by Rao Jodha, a Rajput chief of the Rathore clan.[12] On 11 August 1947 four days prior to the Indian independence, Maharaja Hanwant Singh, the last ruler of Jodhpur state signed the Instrument of Accession and merged his state in Union of India.</p>
+            </div>
+        </div>
+        <div class="destination">
+            <img src="istockphoto-511119458-612x612.jpg" alt="Jaisalmer" width="700" height="400">
+            <div class="text-container">
+                <h3>Jaisalmer - Golden city</h3>
+                <p>The Golden city",Jaisalmer is a city in the Indian state of Rajasthan, located 575 kilometres (357 mi) west of the state capital Jaipur. It is the administrative headquarters of Jaisalmer District. Before Indian independence, the town served as the capital of the Jaisalmer State, ruled by the Bhati Rajputs.[6] Jaisalmer stands on a ridge of yellowish sandstone and is crowned by the ancient Jaisalmer Fort. This fort contains a royal palace and several ornate Jain temples. Many of the houses and temples of both the fort and of the town below are built of finely sculptured yellow sandstone.</p>
+            </div>
+
+    </section>
+
+    <!-- Heritage Section -->
+    <section id="heritage">
+        <h2>Heritage Sites</h2>
+        <div class="heritage-container">
+            <div class="heritage-item">
+                <img src="amber-fort-2.jpg" alt="Amber Fort" width="500" height="400">
+                <div class="text-container">
+                    <h3>Amber Fort</h3>
+                    <p>An iconic fort located in Jaipur, known for its artistic style elements.Amer Fort or Amber Fort is a fort located in Amer, Rajasthan, India. Amer is a town with an area of 4 square kilometres (1.5 sq mi)[2] located 11 kilometres (6.8 mi) from Jaipur, the capital of Rajasthan. Located high on a hill, it is the principal tourist attraction in Jaipur.[3][4] Amer Fort is known for its artistic style elements. With its large ramparts and series of gates and cobbled paths, the fort overlooks Maota Lake,[4][5][6][7] which is the main source of water for the Amer Palace.</p>
+                </div>
+            </div>
+            <div class="heritage-item">
+                <img src="Mehrangarh-Fort_18th-oct.jpg" alt="Mehrangarh Fort" width="500" height="400">
+                <div class="text-container">
+                    <h3>Mehrangarh Fort</h3>
+                    <p>One of the largest forts in India, located in Jodhpur.Mehrangarh Fort, located in Jodhpur, Rajasthan, is one of the largest and most impressive forts in India. It stands 400 feet (122 meters) above the city and is surrounded by thick, imposing walls. Built in 1459 by Rao Jodha, the founder of Jodhpur, Mehrangarh has witnessed centuries of history and is a testament to the grandeur of Rajput architecture and culture.</p>
+                </div>
+            </div>
+            <div class="heritage-item">
+                <img src="Hawa-Mahal.jpg" alt="Hawa Mahal" width="500" height="400">
+                <div class="text-container">
+                    <h3>Hawa Mahal</h3>
+                    <p>The Palace of Winds is a must-visit place in Jaipur.Hawa Mahal, or the "Palace of Winds," is a stunning five-story palace located in the heart of Jaipur, Rajasthan. Built in 1799 by Maharaja Sawai Pratap Singh, the palace is one of the most iconic landmarks of Jaipur and a brilliant example of Rajput architecture, blending both Hindu and Islamic styles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wildlife Section -->
+    <section id="wildlife">
+        <h2>Wildlife Sanctuaries</h2>
+        <div class="wildlife-container">
+            <div class="wildlife-item">
+                <img src="Ranthambore-Tiger-Reserve.jpg" alt="Ranthambore National Park" width="500" height="400">
+                <div class="text-container">
+                    <h3>Ranthambore National Park</h3>
+                    <p>Best known for its tigers and safari tours.Ranthambore National Park, located in the Sawai Madhopur district of Rajasthan, is one of the most renowned wildlife sanctuaries in India. Covering an area of 1,334 square kilometers, it is famous for its population of Bengal tigers and is one of the best places in India to see these majestic animals in their natural habitat.</p>
+                </div>
+            </div>
+            <div class="wildlife-item">
+                <img src="male-indian-tiger-ranthambore-india-1024x768.jpg" alt="Sariska Tiger Reserve" width="500" height="400">
+                <div class="text-container">
+                    <h3>Sariska Tiger Reserve</h3>
+                    <p>Popular tiger reserve nestled in the Aravalli Hills.Sorsan Grasslands, also known as Sarai-Ka-Sanctuary, is located in the Baran district of Rajasthan, and it is a lesser-known wildlife sanctuary that primarily protects grassland ecosystems. The sanctuary is an important habitat for a variety of wildlife species, including birds, mammals, and reptiles, and is particularly significant for being a haven for the Great Indian Bustard, a critically endangered bird species.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Festivals Section -->
+    <section id="festivals">
+        <h2>Festivals of Rajasthan</h2>
+        <div class="festival-container">
+            <div class="festival-item">
+                <img src="Fair-and-Festivals-of-Rajasthan.jpg" alt="Pushkar Camel Fair" width="500" height="400">
+                <div class="text-container">
+                    <h3>Pushkar Camel Fair</h3>
+                    <p>A cultural spectacle showcasing thousands of camels and vibrant folk traditions.The Pushkar Festival, also known as the Pushkar Camel Fair, is an annual event held in the town of Pushkar, Rajasthan. It is one of the largest and most famous fairs in India, drawing in thousands of tourists, pilgrims, and traders from across the world. The festival typically takes place in November during the Hindu month of Kartik (on the full moon day, known as Kartik Purnima), lasting for around five to seven days.</p>
+                </div>
+            </div>
+            <div class="festival-item">
+                <img src="74623_Reuters-Mehendi.jpg" alt="teej" width="500" height="400">
+                <div class="text-container">
+                    <h3>Teej</h3>
+                    <p>A popular festival in Rajasthan.Teej Festival is a major celebration in Rajasthan, deeply rooted in cultural and religious traditions. It primarily honors the reunion of the Hindu goddess Parvati with her consort, Lord Shiva. Teej is a celebration of monsoon, marital bliss, and women's well-being and is observed with great enthusiasm by married women who pray for their husbands' long lives and happiness.</p>
+                </div>
+                </div>
+                <div class="festival-item">
+                    <img src="16536469081082530791.jpg" alt="Gangaur" width="500" height="400">
+                    <div class="text-container">
+                        <h3>Gangaur</h3>
+                        <p>A Biggest festival celebrated in Rajasthan.Gangaur Festival is one of the most significant and widely celebrated festivals in Rajasthan, dedicated to Goddess Gauri, an incarnation of Parvati, and her consort, Lord Shiva. The festival, which symbolizes marital bliss, love, and prosperity, is especially important for married women, who pray for the well-being of their husbands and happiness in married life. Unmarried women also participate, praying for a good husband.
+
+                            The word "Gangaur" is derived from "Gan," referring to Lord Shiva, and "Gaur," referring to Goddess Parvati. The festival typically takes place in the month of Chaitra (March-April), right after the Holi festival, and is observed for 18 days.</p>
+                    </div>
+                </section>
+
+
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Us:</h2>
+    <form id="contactForm" action="contact.php" method="POST">
+        <input type="text" name="name" id="name" placeholder="Your Name" required>
+        <input type="email" name="email" id="email" placeholder="Your Email" required>
+        <textarea name="message" id="message" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+
+<script>
+    
+    function redirectToThankYouPage(event) {
+        event.preventDefault();  // Prevent default form submission
+
+        // Get form data
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const message = document.getElementById("message").value;
+
+        // Redirect to thank you page with query parameters
+        window.location.href = `thank you.jpg?name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}&message=${encodeURIComponent(message)}`;
+    }
+</script>
